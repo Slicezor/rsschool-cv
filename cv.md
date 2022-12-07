@@ -15,6 +15,9 @@
 
 ---
 ## About Myself
+
+I have been studying Front-end development on my own lately, and now I'm taking a course at RS School. I am always eager to learn and learn new things. I am also very communicative, I easily join new teams and companies. Another one of my strengths is creativity.
+
 ---
 
 ## Technical Skills
@@ -27,7 +30,25 @@
 
 ---
 
-## Kode
+## Code example
+
+```
+function deleteCompletedTasks(event) {
+	if (event.target.dataset.action !== 'clear') return
+
+	tasks.forEach(task => {
+		const index = tasks.findIndex(task => task.done === true)
+		if ((tasks.findIndex(task => task.done === true)) >= 0) {
+			tasks.splice(index, 1)
+		}
+	})
+
+	savetoLocalStorage()
+	checkEmptyList()
+
+	window.location.reload();
+}
+```
 
 ---
 
@@ -42,7 +63,7 @@
 
 ---
 
-##Languages
+## Languages
 
 * English - B1 (Intermediate)
 * Russian - C2 (Native)
