@@ -63,8 +63,8 @@ a{
 
 .left-column__img img{
 	position: absolute;
-	top: 0;
-	left: -70px;
+	top: -70px;
+	left: -50px;
 	width: 300px;
 	object-fit: cover;
 }
